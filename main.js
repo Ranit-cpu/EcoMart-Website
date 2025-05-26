@@ -15,7 +15,7 @@ document.querySelector('#cart-btn')?.addEventListener("click", () => {
   searchForm?.classList.remove('active');
   account?.classList.remove('active');
   navbar.classList.remove('active');
-  loadCartItems(); // Refresh cart
+  loadCartItems();
 });
 
 document.querySelector('#login-btn')?.addEventListener("click", () => {
